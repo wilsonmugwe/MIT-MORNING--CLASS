@@ -1,0 +1,29 @@
+h1 {
+    color: white;
+    background-color: darkblue;
+    text-align: center;
+    font-size: xxx-large;
+    font-style: italic;
+}
+p {
+    color: black;
+    background-color: black;
+    text-align: justify;
+    font-size:large;
+    font-style: normal;
+    }
+.main{
+    color: black;
+    background-color: azure;
+    text-align: justify-all;
+    font-size: large;
+    font-style: normal;
+}
+#heading{
+    color:black;
+   background-color: darkblue;
+    text-align: justify;
+    font-size: xxx-large;
+    font-style: italic;
+
+}

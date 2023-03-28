@@ -1,0 +1,17 @@
+table,th,td{
+    border: 1px solid azure;
+    border-collapse: collapse;
+    border-width: thick;
+    border-color: white;
+    }
+table{width: 100%}
+th{
+    background-color: lawngreen;
+}
+td{
+    text-align: center;
+}
+tr:nth-child(odd){
+    background-color: blue;
+}
+table{height: 200px}

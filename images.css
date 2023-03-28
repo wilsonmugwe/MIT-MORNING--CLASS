@@ -1,0 +1,8 @@
+body{
+    background-image: url("images/image3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    color: white;
+}

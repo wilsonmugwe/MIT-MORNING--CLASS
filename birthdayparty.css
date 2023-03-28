@@ -1,0 +1,23 @@
+.main{
+
+    background-color: grey;
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+
+}
+.right{
+    background-color: darkred;
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+    margin-left: 50px;
+border-color: darkred;
+}
+.left{
+    background-color: azure;
+    padding: 50px;
+    flex-direction: row;
+    display: flex;
+    border-color: darkred;
+}

@@ -1,0 +1,14 @@
+input[type=email]{
+    width: 500px;
+}
+.form{
+    width: 45%;
+    margin-left: 300px;
+    height: 400px;
+}
+input[type=text]{
+    width: 430px;
+}
+input[type=date]{
+    width: 400px;
+}

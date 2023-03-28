@@ -1,0 +1,39 @@
+*{
+
+    background-color: limegreen;
+}
+
+
+
+
+
+
+
+
+
+
+.paragraph{
+    background-color: darkred;
+    color: blue;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: underline;
+    line-height: 1cm;
+    text-indent: 23px;
+    word-spacing: 50px;
+    cursor:all-scroll;
+    border: 2px solid grey;
+    outline: green solid 10px;
+    padding: 20px;
+    margin: 40px;
+}
+.inner{
+    color: white;
+
+}
+ul{
+    list-style-type: circle;
+    list-style-position: outside;
+}

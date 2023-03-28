@@ -1,0 +1,23 @@
+input[type=text],input[type=email],input[type=tel]{
+
+    background-color: white;
+box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+}
+input[type=text],input[type=email],input[type=tel],input[type=submit]{
+    box-sizing: border-box;
+}
+.myform{
+padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  padding-top: 20px;
+    background-color: darkred;
+    margin-left: auto;
+}
+input[type=submit]{
+    background-color: yellow;
+    height: 40px;
+    width: 80px;
+}

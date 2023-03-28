@@ -1,0 +1,13 @@
+table,td,th{
+    border: 1px solid black;
+border-collapse: collapse;
+}
+table{
+    height: 300px;
+width: 500px;
+margin-left: auto;
+margin-right: auto;
+    background-color: darkkhaki;
+}
+tr.row1{background-color: yellow}
+td.col1{background-color: yellow}

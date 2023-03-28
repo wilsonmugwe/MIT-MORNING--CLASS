@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+  <script type="text/javascript">
+    function validate(){
+      var name=document.getElementById("name");
+      var email=document.getElementById("email");
+      var password=document.getElementById("password");
+
+      if(name.value==""||email.value==""||password.value==""){
+
+        alert("No blank value allowed")
+        return false;
+      }
+      else{
+        return true;
+      }
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+  </script>
+</head>
+<body>
+
+
+<form    onsubmit="return validate()" action="get.html">
+  <label for="name">Name:</label>
+  <input type="text"id="name"><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email"id="email"><br><br>
+
+  <label for="pwd">Password</label>
+  <input type="password"id="pwd"><br><br>
+
+  <button type="submit">Submit</button>
+
+
+
+
+
+
+
+
+
+
+</form>
+
+</body>
+</html>

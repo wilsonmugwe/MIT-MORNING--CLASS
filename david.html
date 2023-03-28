@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  <script type="text/javascript">
+    function validate(){
+      var fname=document.getElementById("fname");
+      var email=document.getElementById("email");
+      var phonenumber=document.getElementById("phonenumber");
+
+      if(fname.value==""||email.value==""||phonenumber.value==""){
+        alert("No blank value allowed")
+        return false;
+      }
+else{
+  return true;
+      }
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </script>
+</head>
+<body>
+<div class="myform">
+<legend>Get in touch</legend>
+<br><br>
+
+<form  onsubmit="return validate()"         action="shaft.html">
+  <label for="fname">Name*</label><br>
+  <input type="text"id="fname"><br><br>
+
+  <label for="email">Email*</label><br>
+  <input type="email"id="email"><br><br>
+
+  <label for="phonenumber">Phone</label><br>
+  <input type="tel"id="phonenumber"><br><br>
+
+  <p>Message*</p>
+  <textarea name="" id="" cols="175" rows="10"></textarea><br><br>
+
+  <input type="submit"value="Submit">
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+</body>
+</html>

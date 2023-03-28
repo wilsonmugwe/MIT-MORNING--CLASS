@@ -1,0 +1,26 @@
+input[type=text],input[type=email],input[type=submit] {
+display: inline-block;
+    border-radius: 15px;
+    box-sizing: border-box;
+    height: 50px;
+    width: 400px;
+}
+input[type=submit]{
+    background-color: blue;
+    width: 450px;
+    text-align: center;
+}
+.myform {
+    background-color: deepskyblue;
+  padding-left: 400px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type=submit]:hover{
+    background-color: black;
+}
